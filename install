@@ -599,9 +599,9 @@ main() {
   fi
 
   # LAN fix.
-  if confirm "Enable LAN access while the VPN connection is active?" "y"; then
-    ip_rule_fix
-  fi
+  #if confirm "Enable LAN access while the VPN connection is active?" "y"; then
+  #  ip_rule_fix
+  #fi
 }
 
 main "$@"
